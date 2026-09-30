@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ssrf-probe"
+version = "0.1.0"
+description = "Authorized SSRF testing toolkit: payloads, out-of-band callback detection, and response analysis."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "secx" }]
+keywords = ["ssrf", "security", "pentest", "appsec", "oast"]
+
+[project.scripts]
+ssrf-probe = "ssrf_probe.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["ssrf_probe*"]
