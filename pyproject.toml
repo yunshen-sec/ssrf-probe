@@ -9,7 +9,7 @@ description = "Authorized SSRF testing toolkit: payloads, out-of-band callback d
 readme = "README.md"
 requires-python = ">=3.9"
 license = { text = "MIT" }
-authors = [{ name = "secx" }]
+authors = [{ name = "云深" }]
 keywords = ["ssrf", "security", "pentest", "appsec", "oast"]
 
 [project.scripts]

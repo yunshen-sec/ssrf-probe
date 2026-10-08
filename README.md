@@ -35,7 +35,7 @@ probe is only reported `confirmed` when your listener actually receives the call
 ## Install
 
 ```bash
-git clone https://github.com/Secx1/ssrf-probe
+git clone https://github.com/yunshen-sec/ssrf-probe
 cd ssrf-probe
 pip install -e .
 ```
